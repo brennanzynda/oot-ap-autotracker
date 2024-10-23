@@ -1,10 +1,10 @@
 ﻿{
-    "name": "Sonic Adventure 2: Battle - Archipelago Tracker",
-    "game_name": "Sonic Adventure 2: Battle",
-    "platform": "PC",
-    "package_version": "2.3.1",
-    "package_uid": "sonic_adventure_2_battle_randomizer_porygone",
-    "author": "PoryGone",
+    "name": "Ocarina of Time - Archipelago Tracker",
+    "game_name": "The Legend of Zelda: Ocarina of Time",
+    "platform": "N64",
+    "package_version": "0.0.1",
+    "package_uid": "oot-ap-autotracker",
+    "author": "MxL",
     "variants": {
         "itemrando": {
             "display_name": "Archipelago Randomizer",
