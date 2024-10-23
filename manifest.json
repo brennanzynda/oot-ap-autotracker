@@ -1,0 +1,17 @@
+﻿{
+    "name": "Sonic Adventure 2: Battle - Archipelago Tracker",
+    "game_name": "Sonic Adventure 2: Battle",
+    "platform": "PC",
+    "package_version": "2.3.1",
+    "package_uid": "sonic_adventure_2_battle_randomizer_porygone",
+    "author": "PoryGone",
+    "variants": {
+        "itemrando": {
+            "display_name": "Archipelago Randomizer",
+            "flags": [
+                "ap"
+            ]
+        }
+    },
+    "min_poptracker_version": "0.25.1"
+}
