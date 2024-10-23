@@ -17,12 +17,48 @@
             "h_alignment": "left",
             "rows": [
               [
-                "toggle",
-                "progressive"
+                "sticks",
+                "nuts",
+                "bombs",
+                "bow",
+                "fire_arrow",
+                "dins",
+                "child_sword",
+                "master_sword",
+                "big_sword"
               ],
               [
-                "consumable",
-                "progressive_toggle"
+                "slingshot",
+                "fairy_ocarina",
+                "bombchu",
+                "hookshot",
+                "blue_arrow",
+                "farore",
+                "child_shield",
+                "hylian_shield",
+                "mirror_shield"
+              ],
+              [
+                "boomerang",
+                "lens",
+                "beans",
+                "hammer",
+                "light_arrow",
+                "nayru",
+                "bracelet",
+                "red_tunic",
+                "blue_tunic"
+              ],
+              [
+                "bottle1",
+                "bottle2",
+                "bottle3",
+                "bottle4",
+                "adult_egg",
+                "keaton_mask",
+                "silver_scale",
+                "iron_boots",
+                "hover_boots"
               ]
             ]
           }

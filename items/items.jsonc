@@ -1,40 +1,344 @@
 [
   //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
   {
-    "name": "Toggle",
-    "type": "toggle",
-    "img": "images/items/toggle.png",
-    "codes": "toggle"
+    "name": "Deku Sticks",
+    "type": "consumable",
+    "img": "images/items/stick.png",
+    "max_quantity": 30,
+    "increment": 10,
+    "decrement": 10,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "sticks"
   },
   {
-    "name": "Progressive",
+    "name": "Deku Nuts",
+    "type": "consumable",
+    "img": "images/items/nut.png",
+    "max_quantity": 40,
+    "initial_quantity": 20,
+    "min_quantity":0,
+    "increment": 10,
+    "decrement": 10,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "nuts"
+  },
+  {
+    "name": "Bomb Bag",
+    "type": "consumable",
+    "img": "images/items/bomb.png",
+    "max_quantity": 40,
+    "increment": 10,
+    "decrement": 10,
+    "initial_quantity": 20,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "bombs"
+  },
+  {
+    "name": "Bow",
+    "type": "consumable",
+    "img": "images/items/bow.png",
+    "max_quantity": 50,
+    "increment": 10,
+    "decrement": 10,
+    "initial_quantity": 30,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "bow"
+  },
+  {
+    "name": "Fire Arrows",
+    "type": "toggle",
+    "img": "images/items/firearrow.png",
+    "codes": "fire_arrow"
+  },
+  {
+    "name": "Din's Fire",
+    "type": "toggle",
+    "img": "images/items/din.png",
+    "codes": "dins"
+  },
+  {
+    "name": "Kokiri Sword",
+    "type": "toggle",
+    "img": "images/items/sword1.png",
+    "codes": "child_sword"
+  },
+  {
+    "name": "Master Sword",
+    "type": "toggle",
+    "img": "images/items/sword2.png",
+    "codes": "master_sword"
+  },
+  {
+    "name": "Biggoron Sword",
+    "type": "toggle",
+    "img": "images/items/sword3.png",
+    "codes": "big_sword"
+  },
+  {
+    "name": "Slingshot",
+    "type": "consumable",
+    "img": "images/items/slingshot.png",
+    "max_quantity": 50,
+    "increment": 10,
+    "decrement": 10,
+    "initial_quantity": 30,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "slingshot"
+  },
+  {
+    "name": "Ocarina",
     "type": "progressive",
     "allow_disabled": true,
     "initial_stage_idx": 0,
     "stages": [
       {
-        "img": "images/items/progressive.png",
-        "codes": "progressive",
-        "inherit_codes": false
+        "img": "images/items/fairyocarina.png",
+        "codes": "fairy_ocarina",
+        "inherit_codes": true
       },
       {
-        "img": "images/items/progressive_2.png",
-        "codes": "progressive_2",
-        "inherit_codes": false
+        "img": "images/items/ocarina.png",
+        "codes": "ocarina_of_time",
+        "inherit_codes": true
       }
     ]
+  },
+  {
+    "name": "Bombchus",
+    "type": "toggle",
+    "img": "images/items/bombchu.png",
+    "codes": "bombchu"
+  },
+  {
+    "name": "Hookshot",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/hookshot.png",
+        "codes": "hookshot",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/longshot.png",
+        "codes": "longshot",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Ice Arrows",
+    "type": "toggle",
+    "img": "images/items/icearrow.png",
+    "codes": "blue_arrow"
+  },
+  {
+    "name": "Farore's Wind",
+    "type": "toggle",
+    "img": "images/items/farore.png",
+    "codes": "farore"
+  },
+  {
+    "name": "Deku Shield",
+    "type": "toggle",
+    "img": "images/items/shield1.png",
+    "codes": "child_shield"
+  },
+  {
+    "name": "Hylian Shield",
+    "type": "toggle",
+    "img": "images/items/shield2.png",
+    "codes": "hylian_shield"
+  },
+  {
+    "name": "Mirror Shield",
+    "type": "toggle",
+    "img": "images/items/shield3.png",
+    "codes": "mirror_shield"
+  },
+  {
+    "name": "Boomerang",
+    "type": "toggle",
+    "img": "images/items/boomerang.png",
+    "codes": "boomerang"
+  },
+  {
+    "name": "Lens of Truth",
+    "type": "toggle",
+    "img": "images/items/lens.png",
+    "codes": "lens"
   },
   {
     "name": "Beans",
     "type": "consumable",
     "img": "images/items/bean.png",
     "max_quantity": 10,
-    "increment": 1,
-    "decrement": 1,
+    "increment": 10,
+    "decrement": 10,
     "initial_quantity": 0,
     "overlay_background": "#000000",
     "overlay_font_size": 8,
-    "codes": "consumable"
+    "codes": "beans"
+  },
+  {
+    "name": "Megaton Hammer",
+    "type": "toggle",
+    "img": "images/items/hammer.png",
+    "codes": "hammer"
+  },
+  {
+    "name": "Light Arrows",
+    "type": "toggle",
+    "img": "images/items/lightarrow.png",
+    "codes": "light_arrow"
+  },
+  {
+    "name": "Nayru's Love",
+    "type": "toggle",
+    "img": "images/items/nayru.png",
+    "codes": "nayru"
+  },
+  {
+    "name": "Strength",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/lift1.png",
+        "codes": "bracelet",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/lift2.png",
+        "codes": "silver_gauntlet",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/lift3.png",
+        "codes": "gold_gauntlet",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Goron Tunic",
+    "type": "toggle",
+    "img": "images/items/redtunic.png",
+    "codes": "red_tunic"
+  },
+  {
+    "name": "Zora Tunic",
+    "type": "toggle",
+    "img": "images/items/bluetunic.png",
+    "codes": "blue_tunic"
+  },
+  {
+    "name": "Bottle",
+    "type": "toggle",
+    "img": "images/items/bottle.png",
+    "codes": "bottle1"
+  },
+  {
+    "name": "Bottle",
+    "type": "toggle",
+    "img": "images/items/bottle.png",
+    "codes": "bottle2"
+  },
+  {
+    "name": "Bottle",
+    "type": "toggle",
+    "img": "images/items/bottle.png",
+    "codes": "bottle3"
+  },
+  {
+    "name": "Bottle",
+    "type": "toggle",
+    "img": "images/items/bottle.png",
+    "codes": "bottle4"
+  },
+  {
+    "name": "Adult Trades",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/egg.png",
+        "codes": "adult_egg",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/lift2.png",
+        "codes": "egg",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/lift3.png",
+        "codes": "egg",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Masks",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/keaton.png",
+        "codes": "keaton_mask",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/lift2.png",
+        "codes": "mask",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/lift3.png",
+        "codes": "mask",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Scales",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/scale1.png",
+        "codes": "silver_scale",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/scale2.png",
+        "codes": "gold_scale",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Iron Boots",
+    "type": "toggle",
+    "img": "images/items/ironboots.png",
+    "codes": "iron_boots"
+  },
+  {
+    "name": "Hover Boots",
+    "type": "toggle",
+    "img": "images/items/hoverboots.png",
+    "codes": "hover_boots"
   },
   {
     "name": "Progressive Toggle",
