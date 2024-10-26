@@ -276,38 +276,108 @@
         "inherit_codes": false
       },
       {
-        "img": "images/items/lift2.png",
-        "codes": "egg",
+        "img": "images/items/cucco.png",
+        "codes": "adult_cucco",
         "inherit_codes": false
       },
       {
-        "img": "images/items/lift3.png",
-        "codes": "egg",
+        "img": "images/items/cojiro.png",
+        "codes": "cojiro",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/mushroom.png",
+        "codes": "odd_mushroom",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/mushroom.png",
+        "codes": "odd_mushroom",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/medicine.png",
+        "codes": "medicine",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/saw.png",
+        "codes": "poachers_saw",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/broken_sword.png",
+        "codes": "broken_sword",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/perscription.png",
+        "codes": "prescription",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/frog.png",
+        "codes": "eyeball_frog",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/eyedrops.png",
+        "codes": "eye_drops",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/claim.png",
+        "codes": "claim_check",
         "inherit_codes": false
       }
     ]
   },
   {
-    "name": "Masks",
+    "name": "Child Trades",
     "type": "progressive",
     "allow_disabled": true,
     "initial_stage_idx": 0,
     "stages": [
+      {
+        "img": "images/items/egg.png",
+        "codes": "child_egg",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/cucco.png",
+        "codes": "child_cucco",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/letter.png",
+        "codes": "zeldas_letter",
+        "inherit_codes": false
+      },
       {
         "img": "images/items/keaton.png",
         "codes": "keaton_mask",
         "inherit_codes": false
       },
       {
-        "img": "images/items/lift2.png",
-        "codes": "mask",
+        "img": "images/items/skull.png",
+        "codes": "skull_mask",
         "inherit_codes": false
       },
       {
-        "img": "images/items/lift3.png",
-        "codes": "mask",
+        "img": "images/items/spooky.png",
+        "codes": "spooky_mask",
         "inherit_codes": false
-      }
+      },
+      {
+        "img": "images/items/bunny.png",
+        "codes": "bunny_hood",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/items/truth.png",
+        "codes": "truth_mask",
+        "inherit_codes": false
+      }      
     ]
   },
   {
@@ -339,6 +409,100 @@
     "type": "toggle",
     "img": "images/items/hoverboots.png",
     "codes": "hover_boots"
+  },
+  {
+    "name": "Zelda's Lullaby",
+    "type": "toggle",
+    "img": "images/items/song_zelda.png",
+    "codes": "lullaby"
+  },
+  {
+    "name": "Epona's Song",
+    "type": "toggle",
+    "img": "images/items/song_epona.png",
+    "codes": "eponas"
+  },
+  {
+    "name": "Saria's Song",
+    "type": "toggle",
+    "img": "images/items/song_saria.png",
+    "codes": "sarias"
+  },
+  {
+    "name": "Sun's Song",
+    "type": "toggle",
+    "img": "images/items/song_sun.png",
+    "codes": "suns"
+  },
+  {
+    "name": "Song of Time",
+    "type": "toggle",
+    "img": "images/items/song_time.png",
+    "codes": "time"
+  },
+  {
+    "name": "Song of Storms",
+    "type": "toggle",
+    "img": "images/items/song_storms.png",
+    "codes": "storms"
+  },
+  {
+    "name": "Wallets",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/wallet.png",
+        "codes": "small_wallet",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/wallet1.png",
+        "codes": "adult_wallet",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/wallet2.png",
+        "codes": "giant_wallet",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/wallet3.png",
+        "codes": "tycoon_wallet",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Magic",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/magic1.png",
+        "codes": "magic",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/magic2.png",
+        "codes": "double_magic",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Skulltula Tokens",
+    "type": "consumable",
+    "img": "images/items/skulltula_token.png",
+    "max_quantity": 100,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "skulls"
   },
   {
     "name": "Progressive Toggle",

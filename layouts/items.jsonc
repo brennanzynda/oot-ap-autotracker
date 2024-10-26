@@ -55,10 +55,21 @@
                 "bottle3",
                 "bottle4",
                 "adult_egg",
-                "keaton_mask",
+                "child_egg",
                 "silver_scale",
                 "iron_boots",
                 "hover_boots"
+              ],
+              [
+                "lullaby",
+                "eponas",
+                "sarias",
+                "suns",
+                "time",
+                "storms",
+                "small_wallet",
+                "magic",
+                "skulls"
               ]
             ]
           }
