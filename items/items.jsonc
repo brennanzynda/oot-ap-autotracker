@@ -505,6 +505,60 @@
     "codes": "skulls"
   },
   {
+    "name": "Minuet of Forest",
+    "type": "toggle",
+    "img": "images/items/song_minuet.png",
+    "codes": "minuet"
+  },
+  {
+    "name": "Bolero of Fire",
+    "type": "toggle",
+    "img": "images/items/song_bolero.png",
+    "codes": "bolero"
+  },
+  {
+    "name": "Serenade of Water",
+    "type": "toggle",
+    "img": "images/items/song_serenade.png",
+    "codes": "serenade"
+  },
+  {
+    "name": "Requiem of Spirit",
+    "type": "toggle",
+    "img": "images/items/song_requiem.png",
+    "codes": "requiem"
+  },
+  {
+    "name": "Nocturne of Shadow",
+    "type": "toggle",
+    "img": "images/items/song_nocturne.png",
+    "codes": "nocturne"
+  },
+  {
+    "name": "Prelude of Light",
+    "type": "toggle",
+    "img": "images/items/song_prelude.png",
+    "codes": "prelude"
+  },
+  {
+    "name": "Gerudo Card",
+    "type": "toggle",
+    "img": "images/items/gerudocard.png",
+    "codes": "gerudo_card"
+  },
+  {
+    "name": "Triforce Pieces",
+    "type": "consumable",
+    "img": "images/items/triforce_piece.png",
+    "max_quantity": 100,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "triforce"
+  },
+  {
     "name": "Progressive Toggle",
     "type": "progressive_toggle",
     "initial_stage_idx": 0,

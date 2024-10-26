@@ -70,6 +70,16 @@
                 "small_wallet",
                 "magic",
                 "skulls"
+              ],
+              [
+                "minuet",
+                "bolero",
+                "serenade",
+                "requiem",
+                "nocturne",
+                "prelude",
+                "gerudo_card",
+                "triforce"
               ]
             ]
           }
