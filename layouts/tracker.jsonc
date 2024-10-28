@@ -28,20 +28,20 @@
           "type": "tabbed",
           "tabs": [
             {
-              "title": "Map 1",
+              "title": "Child Overworld",
               "content": {
                 "type": "map",
                 "maps": [
-                  "map1"
+                  "child"
                 ]
               }
             },
             {
-              "title": "Map 2",
+              "title": "Adult Overworld",
               "content": {
                 "type": "map",
                 "maps": [
-                  "map2"
+                  "adult"
                 ]
               }
             }
@@ -79,20 +79,20 @@
           "type": "tabbed",
           "tabs": [
             {
-              "title": "Map 1",
+              "title": "Child Overworld",
               "content": {
                 "type": "map",
                 "maps": [
-                  "map1"
+                  "child"
                 ]
               }
             },
             {
-              "title": "Map 2",
+              "title": "Adult Overworld",
               "content": {
                 "type": "map",
                 "maps": [
-                  "map2"
+                  "adult"
                 ]
               }
             }
